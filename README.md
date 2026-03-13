@@ -1,10 +1,10 @@
 ![Tests](https://github.com/NaughtyFaun/ref-buddy/actions/workflows/tests.yml/badge.svg) ![License](https://img.shields.io/github/license/NaughtyFaun/ref-buddy)
 
 # Ref Buddy
-An application that helps to organize, navigate and <b>study</b> big collection of images.<br/>
+An application that helps to organize, navigate and (human) <b>study</b> big collection of refence images.<br/>
 Something like booru.org, but with handy tools for artists.
 
-I personally use it to study life drawing and navigate through more than 80,000 reference images I collected over the years!
+I personally use it to study life drawing and navigate through more than 200,000 reference images I collected over the years!
 
 This app is currently in active development.
 
