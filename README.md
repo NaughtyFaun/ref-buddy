@@ -1,3 +1,5 @@
+![Tests](https://github.com/NaughtyFaun/ref-buddy/actions/workflows/tests.yml/badge.svg) ![License](https://img.shields.io/github/license/NaughtyFaun/ref-buddy)
+
 # Ref Buddy
 An application that helps to organize, navigate and <b>study</b> big collection of images.<br/>
 Something like booru.org, but with handy tools for artists.
@@ -6,7 +8,7 @@ I personally use it to study life drawing and navigate through more than 80,000 
 
 This app is currently in active development.
 
-### Features
+## Features
 - **Shows images in any browser** one by one (multiple options to limit next image by the same folder or some tag);
 - **Zooming in** to an image;
 - **Grayscale filter** (turn grayscale on the fly + adjustable contrast) to better see light and shadows (multiple levels);
@@ -16,7 +18,7 @@ This app is currently in active development.
 - Split gif, webp or mp4 frame by frame (requires ffmpeg library to be installed);
 - Duplicates search (the features is a mess atm... but it works!).
 
-### Setup
+# Setup
 Download this project first.<br/>
 You'll need ```python``` ``` version 3.10 or higher``` to be installed beforehand. Other setup should be handled automatically by the run script.
 
@@ -25,7 +27,7 @@ Open file ```.env``` and replace:
 - ```THUMB_PATH``` will be used to store generated thumbs;
 - ```TMP_PATH``` will be used when duplicates search is initiated
 
-### How to run
+# How to run
 1. Run the script.<br/>
 Windows: run ```run_ref_buddy.cmd```<br/>
 Mac/Linux: run ```run_ref_buddy.sh```
@@ -35,8 +37,8 @@ Mac/Linux: run ```run_ref_buddy.sh```
 
 You'll need to import images and generate thumbs only once (or more if you add images to the library later)
 
-### Some hotkeys
-#### Image view:
+# Some hotkeys
+### Image view:
 - ```arrow right``` next random image (or just refresh the page); 
 - ```arrow left``` previous image;
 - ```Enter``` start timer. Timer is just a guide, it won't do anything other that counting;
@@ -49,11 +51,11 @@ You'll need to import images and generate thumbs only once (or more if you add i
 ```5``` is neutral 50% brightness. Rest of the numbers switch cursor brightness according to "light stops" in photography: 
 ```4``` is two times less light than ```5```, ```6``` is two times more light that ```5```, etc.
 
-#### Folder view:
+### Folder view:
 - ```S``` to toggle image selection mode;
 - ```Ctrl+A``` to select all the images currently displayed when selection mode is on;
 - ```T``` to toggle tags list view.
 
-### Troubleshooting
+# Troubleshooting
 - On Mac/Linux you might need to do ```chmod +x run_ref_buddy.sh``` first.
 - If app works... it is a miracle!
