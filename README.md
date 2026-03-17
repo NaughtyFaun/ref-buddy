@@ -1,4 +1,4 @@
-![Tests](https://github.com/NaughtyFaun/ref-buddy/actions/workflows/tests.yml/badge.svg) ![License](https://img.shields.io/github/license/NaughtyFaun/ref-buddy)
+![Tests](https://github.com/NaughtyFaun/ref-buddy/actions/workflows/tests.yml/badge.svg) ![Coverage](https://codecov.io/gh/NaughtyFaun/ref-buddy/main/graph/badge.svg) ![License](https://img.shields.io/github/license/NaughtyFaun/ref-buddy)
 
 # Ref Buddy
 An application that helps to organize, navigate and (human) <b>study</b> big collection of refence images.<br/>
